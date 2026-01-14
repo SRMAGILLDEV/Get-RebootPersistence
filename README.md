@@ -1,4 +1,11 @@
 # Get-RebootPersistence
+NOTE: I HAVEN'T TOUCHED THIS IN A VERY LONG TIME AS CAN BE SEEN LOOKING AT THE LAST DATE I MADE ANY CHANGES
+      THIS WAS WORKING AT ONE TIME BUT I HAD ONLY TESTED IT ON ONE PC SO THAT IS NOT EVEN MUCH OF A TEST
+      I INTEND ON GETTING BACK TO THIS SOON
+      THE ONE THING THAT I NEVER GOT AROUND TO TESTING WAS THE WEB BASED VERSION
+      THAT I INTEND TO WORK ON AS WELL AT SOME POINT HOPEFULLY IN THE NEAR FUTURE AS I NEED TO GET BACK
+      TO THIS KIND OF WORK AGAIN
+      
 Powershell script to maintain persistence after reboot
 
 Still in alpha testing. I have used this method to start scripts post reboot on machines that do not have admin rights as login.
