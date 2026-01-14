@@ -9,7 +9,7 @@
     Sub TestSub
 
     Set WshShell = CreateObject("WScript.Shell")
-    return = WshShell.Run("powershell.exe -ExecutionPolicy Unrestricted -File C:\Users\v-semagi\Desktop\Get-Persistence\Get-Persistence.ps1", 0, true)
+    return = WshShell.Run("powershell.exe -ExecutionPolicy Unrestricted -File C:\Users\[NAME]\Desktop\Get-Persistence\Get-Persistence.ps1", 0, true)
     Set fso = CreateObject("Scripting.FileSystemObject")
     Set file = fso.OpenTextFile("c:\temp\output.txt", 1)
     text = file.ReadAll
